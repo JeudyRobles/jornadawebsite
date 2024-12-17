@@ -1,0 +1,60 @@
+h3{
+    font-size: 1.375rem;
+}
+
+p{
+    font-size: 1.375rem;
+}
+
+.banner {
+    position: relative;
+    background-image: url(./img/blogpost.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 500px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ececec;
+    padding: 20px; 
+}
+
+.banner__titulo {
+    position: absolute;
+    top: 40%; 
+    left: 20%; 
+    transform: translate(-10%, -20%); /* Para ajustar mejor la posición */
+}
+
+.banner__titulo--texto {
+    font-size: 2.5em; 
+    margin: 0;
+}
+
+.blogpost__titulo--subrayado {
+    width: 50px; 
+    height: 3px; 
+    background-color: red; 
+    margin: 10px 0; 
+}
+
+.banner__parrafo {
+    font-size: 1.2rem; 
+    max-width: 400px; 
+}
+
+.container {
+    padding: 10rem;
+}
+
+.tokyo__titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.tokyo__blog--section{
+    display: flex;
+}
