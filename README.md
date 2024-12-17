@@ -17,4 +17,4 @@ La landing page "Jornada" es el punto de inicio para una empresa de viajes ficti
 
 1. Clona este repositorio:
    ```bash
-   git clone []
+   git clone [https://github.com/JeudyRobles/jornadawebsite.git]
